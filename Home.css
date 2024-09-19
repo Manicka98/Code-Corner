@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+body{
+    overflow-x: hidden;
+}
 
 header{
     background: rgb(140, 0, 255);
@@ -1103,7 +1106,7 @@ header{
     .excited_form{
      
         background-color: #fffeda;
-        width: 576px;
+        width: 90%;
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -1111,11 +1114,12 @@ header{
         align-items: center;
     }
     .excited_form h4{
+        width: 140%;
         background-color: #1100ff;
         color: #e4dada;
         text-align: center;
         align-items: center;
-        margin-right: 60px;
+        margin-right: 10px;
         
     }
     .excited_form input{
@@ -1126,23 +1130,25 @@ header{
         margin-top: 10px;
         border: none;
         border-left: 4px solid rgb(25, 0, 255);
+        margin-left: 30px;
     
     }
     .excited_form textarea{
         border: solid 3px rgb(203, 171, 240);
         width: 100%;
         margin-top: 20px;
+        margin-left: 30px;
+        
     
     }
-    .excited_form button{
-        background-color: orange;
-        color: white;
-        outline: none;
-        border: none;
-        padding-inline: 20px;
-        padding-block: 10px;
-        margin-top: 20px;
+    .excited_form > button{
+        background-color: #000000;
+        margin-left: 130px;
+   
     
+    }
+    .excited_form > button:hover{
+        background-color: #1100ff;
     }
     .excited_form input:hover{
         border-right: 4px solid orange;
